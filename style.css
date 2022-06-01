@@ -1,0 +1,73 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.fighter-panels-wrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	border: 2px solid black;
+
+
+}
+
+.fighter-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ border: 2px solid rgb(105, 105, 105);
+ background-color: rgb(211, 211, 211);
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+.health-data-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.health-indicator {
+	overflow: hidden;
+	width: 200px;
+	height: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: rgb(47, 79, 79);
+}
+
+.health-indicator__line {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(124,250,0);
+}
+
+.health-text {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+}
+
+.fighting-controls-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.attack-panel {
+display: flex;
+justify-content: center;
+
+
+}
+
+.uni-button {
+
+}
